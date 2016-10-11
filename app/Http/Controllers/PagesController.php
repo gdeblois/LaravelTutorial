@@ -13,5 +13,6 @@ class PagesController extends Controller
         $first = 'Ghislain';
         $last = 'de Blois';
         return view('pages.about', compact('first', 'last'));
+        
     }
 }
